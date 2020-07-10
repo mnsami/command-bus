@@ -1,6 +1,6 @@
 {
-    "name": "mnsami/shared-kernel",
-    "description": "Shared kernel",
+    "name": "mnsami/command-bus",
+    "description": "Very simple command-bus implementation",
     "type": "library",
     "authors": [
         {

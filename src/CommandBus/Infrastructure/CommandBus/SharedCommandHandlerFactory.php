@@ -1,12 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Shared\Infrastructure\CommandBus;
+namespace Mnsami\CommandBus\Infrastructure\CommandBus;
 
 use Psr\Container\ContainerInterface;
-use Shared\Application\Command;
-use Shared\Application\CommandHandler;
-use Shared\Infrastructure\Exception\SorryCommandNotHandled;
+use Mnsami\CommandBus\Infrastructure\Exception\SorryCommandNotHandled;
 
 abstract class SharedCommandHandlerFactory implements CommandHandlerFactory
 {

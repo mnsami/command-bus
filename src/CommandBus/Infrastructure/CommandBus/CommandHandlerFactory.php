@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Shared\Infrastructure\CommandBus;
+namespace Mnsami\CommandBus\Infrastructure\CommandBus;
 
-use Shared\Application\Command;
-use Shared\Application\CommandHandler;
+use Mnsami\CommandBus\Application\Command;
+use Mnsami\CommandBus\Application\CommandHandler;
 
 interface CommandHandlerFactory
 {

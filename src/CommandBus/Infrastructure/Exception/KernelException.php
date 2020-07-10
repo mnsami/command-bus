@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Shared\Infrastructure\Exception;
+namespace Mnsami\CommandBus\Infrastructure\Exception;
 
-use Shared\Application\DataTransformer;
-use Shared\Application\ErrorExceptionDto;
+use Mnsami\CommandBus\Application\DataTransformer;
+use Mnsami\CommandBus\Application\ErrorExceptionDto;
 
 abstract class KernelException extends \Exception implements DomainException
 {

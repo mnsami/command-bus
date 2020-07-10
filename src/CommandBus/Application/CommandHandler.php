@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Shared\Application;
+namespace Mnsami\CommandBus\Application;
 
-use Shared\Infrastructure\Exception\SorryWrongCommand;
+use Mnsami\CommandBus\Infrastructure\Exception\SorryWrongCommand;
 
 interface CommandHandler
 {

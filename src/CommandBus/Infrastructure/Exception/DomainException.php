@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Shared\Infrastructure\Exception;
+namespace Mnsami\CommandBus\Infrastructure\Exception;
 
-use Shared\Application\DataTransformer;
+use Mnsami\CommandBus\Application\DataTransformer;
 
 interface DomainException extends \Throwable
 {

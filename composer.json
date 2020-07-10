@@ -2,6 +2,8 @@
     "name": "mnsami/command-bus",
     "description": "Very simple command-bus implementation",
     "type": "library",
+    "keywords":    ["command", "command bus", "service layer"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Mina Nabil Sami",
